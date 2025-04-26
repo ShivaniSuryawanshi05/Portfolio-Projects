@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snake Game</title>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background-color: #2a5298; /* Solid blue color */
+    }
+  
+    #game-board {
+      background: linear-gradient(
+        90deg,
+        #d0b59d 25%,
+        #a88b65 25%,
+        #a88b65 50%,
+        #d0b59d 50%,
+        #d0b59d 75%,
+        #a88b65 75%,
+        #a88b65 100%
+      );
+      background-size: 50px 50px; /* Tile size for the wooden pattern */
+      width: 100vmin;
+      height: 100vmin;
+      display: grid;
+      grid-template-rows: repeat(21, 1fr);
+      grid-template-columns: repeat(21, 1fr);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow to the game board */
+      border-radius: 10px;
+    }
+  
+    .snake {
+      background-color: hsl(200, 86%, 3%);
+      border: .25vmin solid rgb(239, 196, 196);
+    }
+  
+    .food {
+      background-color: hsl(50, 100%, 50%);
+      border: .25vmin solid black;
+    }
+  </style>
+  
+  <script src="game.js" defer type="module"></script>
+</head>
+<body>
+  <div id="game-board"></div>
+</body>
+</html>
