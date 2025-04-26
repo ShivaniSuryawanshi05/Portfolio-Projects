@@ -7,7 +7,9 @@ Created responsive websites and simple apps with HTML, CSS, and JavaScript, focu
 
 <img width="959" alt="Quiz App" src="https://github.com/user-attachments/assets/715c9df3-ec55-4568-82c5-d6b1c2f253e4" />
 
-<img width="959" alt="Snake Game" src="https://github.com/user-attachments/assets/bfae0cc3-ce25-4b75-9738-a9e5d79642ce" />
+<img width="953" alt="Snake Game" src="https://github.com/user-attachments/assets/7f0679be-d0c6-4f5b-b170-e4dcd1259cd2" />
 
-<img width="959" alt="Weather App" src="https://github.com/user-attachments/assets/7fb1db6b-30f2-4ef6-95d2-28d126ca8810" />
+<img width="959" alt="Weather App" src="https://github.com/user-attachments/assets/b84a6496-f841-4248-859b-d3ecbe99ff4b" />
+
+
 
